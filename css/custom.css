@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------NAV-------------------------------*/
+nav{
+  height: 3em;
+  background-color: black;
+  padding: 1%;
+
+}
+#para{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+ #titre{
+    justify-content: flex-start;  
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+    margin-right: 1em;
+}
+
+.titres a{
+    font-weight: bold;
+}
+
+/*-----------------------HOME------------------------------*/
+
+#home{
+    background-image: url("../images/hero-image.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#para1{
+    width:50%;
+    margin:3%;
+    margin-top: 3.7%;
+    margin-left:50%;
+    transform:translate(-50%);
+    color:white;
+    font-size: 2.7em;
+}
+
+#para2{
+    margin-left:50%;
+    transform:translate(-50%);
+    line-height: 2em;
+    width: 73.5%;
+    font-size: 1em;
+    padding: 1%;
+    margin-top: -5%;
+    color:white;
+}
+
+#btn{
+    width: 13%;
+    padding:0.5%;
+    font-size:1.7vw;
+    margin-left:50%;
+    transform:translate(-50%);
+    margin-top: -1%;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(245, 55, 55);
+    border:none;
+    border-radius: 3%;
+}
+
+#logo{
+    width: 7%;
+    transform: translate(-50%);
+    left: 50%;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    padding-bottom: 3%;
+}
+
+/*------------------------------Who you are----------------------------*/
+
+#partwho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    min-height: 40vh;
+    margin-bottom: 2%;
+}
+
+#academy{
+    width: 9%;
+    margin-left:50%;
+    transform:translate(-50%);
+    margin-top: 2%;
+}
+
+#who{
+    color: rgb(245, 55, 55);
+    margin-left:50%;
+    transform:translate(-50%);
+    text-transform: uppercase;
+}
+
+#parawho{
+    width: 79%;
+    margin-top: 2%;
+    margin-left:50%;
+    transform:translate(-50%);
+}
+
+.red{
+    color: rgb(245, 55, 55);
+}
+
+/*-------------------Get involved------------------------------*/
+
+#get-involved{
+    background-color: rgb(226, 226, 226);
+}
+
+#get{
+    color: rgb(245, 55, 55);
+    margin-left:50%;
+    transform:translate(-50%);
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration-color: rgb(245, 55, 55);
+    padding-top: 2%;
+    margin-top: 5%;
+}
+hr{
+    width : 15%;
+     color:rgb(245, 55, 55) ;
+     size:4;
+     margin-left:50%;
+    transform:translate(-50%);
+    margin-top: 1%;
+}
+
+#cards{
+    display: flex;
+   
+}
+
+.card{
+    padding: 1%;
+    margin: 4%;
+    margin-top: 1%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+i{
+    background-color: rgb(124, 106, 106);
+    margin-top: 2%;
+    font-size:4vw;
+    padding: 5%;
+    border-radius: 50%;
+} 
+
+.cardtitre{
+    margin-top: 2%;
+    color: rgb(245, 55, 55);
+    text-transform: uppercase;
+}
+
+.btn1{
+    color: rgb(245, 55, 55);
+     margin-top: 2%;
+}
+
+/*--------------------------FOOTER-----------------------------*/
+
+footer{
+    background-color:rgb(245, 55, 55);
+    height: 25vh;
+}
+
+#img-foot{
+ margin-left: 13%;
+ margin-top: 7%;
+}
+
+/*--------------------------Medias Queries------------------------------*/
+
+@media screen and (max-width: 770px){
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
+/*max-width à 360 pour être responsive avec un Galaxy 9*/
+@media screen and (max-width: 360px){
+    #para{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    #img-foot{
+        margin-left: 0%;
+        margin-top: 7%;
+        width:90%;
+       }
+       #para1{
+        width:100%;
+        color:white;
+        font-size: 2.7em;
+    }
+}
+
+
+
+
+
+
+
+
