@@ -192,6 +192,25 @@ footer{
  margin-top: 7%;
 }
 
+/*--------------------------Back To Top ---------------------------------*/
+
+#back-to-top #retour {
+    position: fixed;
+    bottom:5%;
+    right: 3%;
+    font-size: 3vw;
+    background: none;
+  }
+
+  #retour{
+  
+      color : rgb(159, 170, 202);
+  }
+  
+  #retour:hover{
+      color : black;
+  }
+
 /*--------------------------Medias Queries------------------------------*/
 
 @media screen and (max-width: 770px){
@@ -228,6 +247,7 @@ footer{
         font-size: 2.7em;
     }
 }
+
 
 
 
